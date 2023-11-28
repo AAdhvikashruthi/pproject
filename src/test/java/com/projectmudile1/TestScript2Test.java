@@ -7,8 +7,14 @@ public class TestScript2Test {
 	public void PracticeTest1()
 	{
 		System.out.println("Practice test1");
-	}@Test(groups = "regression")
+	}
+	@Test(groups = "regression")
 	public void PracticeTest2()
+	{
+		System.out.println("Practice test1");
+	}
+	@Test(groups = "regression")
+	public void PracticeTest3()
 	{
 		System.out.println("Practice test1");
 	}
